@@ -26,7 +26,7 @@ function Auth({ onSignedIn }) {
     <div className="auth-wrap">
       <div className="auth-card">
         <h1 className="brand">wren</h1>
-        <p className="tagline">your personal AI assistant</p>
+        <p className="tagline">your personal AI agent</p>
         <form onSubmit={submit}>
           <input type="email" placeholder="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
           <input
